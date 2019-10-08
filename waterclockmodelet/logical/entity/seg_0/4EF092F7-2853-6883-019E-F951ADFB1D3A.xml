@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EF092F7-2853-6883-019E-F951ADFB1D3A" name="T_ROLE">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:50:06 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

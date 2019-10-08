@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_clocl_consumption" directorySegmentName="seg_0" id="6B94283D-15A5-5708-B4C4-58570ECC2A4C">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 21:04:38 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<sourcePk>6E3748D1-0F17-BBCA-D091-FB005541F38D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13000431-435D-3FF0-6F13-A3EBDD93D9BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E896305A-9486-3A97-7993-61547D99F6DE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

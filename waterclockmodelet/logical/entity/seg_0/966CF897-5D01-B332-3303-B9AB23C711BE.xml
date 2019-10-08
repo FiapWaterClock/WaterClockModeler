@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="966CF897-5D01-B332-3303-B9AB23C711BE" name="T_PRIVILEGE">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:49:57 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_privilege" id="EE97A01B-9430-F2D3-F38A-B42AE58D607B">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:56:06 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_privilege" id="41CB7932-EA6E-B3A8-8B5B-47ED449C7863">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:56:47 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D405283-C067-F92E-9507-97DF1994D50D" name="T_PRIVILEGE PK">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:56:44 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE97A01B-9430-F2D3-F38A-B42AE58D607B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

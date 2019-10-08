@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E896305A-9486-3A97-7993-61547D99F6DE" name="T_CLOCK">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:49:29 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_clock" id="1BBBCFE1-0804-7E7C-5327-A2FCE3273E68">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:51:01 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_activate" id="A551ECED-0E27-ECD4-966D-DDA7227D51D0">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:52:15 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_intallation" id="F4B02933-60AA-BE0A-5A80-81C5A70AA04D">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:52:54 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_serial_number" id="B8D7D7E5-A0F5-6057-3F8D-8C445A9677C8">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:53:20 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_consumption" id="BD5AC796-0976-2B1E-3FD3-ADD181604A50">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 21:04:38 UTC</createdTime>
+<generatorID>6B94283D-15A5-5708-B4C4-58570ECC2A4C</generatorID>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<referedAttribute>6A5244B5-6E15-1DF3-DE5B-BAF2F4E42511</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2BEC6AB-40D1-D851-FA9E-41FCEE7C8C20" name="T_CLOCK PK">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:52:50 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BBBCFE1-0804-7E7C-5327-A2FCE3273E68</attributeRef>
+<attributeRef>BD5AC796-0976-2B1E-3FD3-ADD181604A50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

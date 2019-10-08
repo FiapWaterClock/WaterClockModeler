@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4003B286-26C6-CFAD-2BB1-A940E87C9578" mainViewID="61D6F79D-E9FE-FB41-E2E3-603E3EA9BB96">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:49:03 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

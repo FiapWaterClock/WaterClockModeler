@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13000431-435D-3FF0-6F13-A3EBDD93D9BF" name="T_COMSUMPTION">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:49:48 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_consumption" id="6A5244B5-6E15-1DF3-DE5B-BAF2F4E42511">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:58:04 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_liters_per_minute" id="2B0C0709-4D65-6354-21E0-70D8268ECE2D">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:58:35 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_time" id="F6B42275-5666-D5A7-D23C-B4D92BA75A46">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:58:58 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E3748D1-0F17-BBCA-D091-FB005541F38D" name="T_COMSUMPTION PK">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:58:33 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<engineerTo>
+<item key="4ADB91B9-8CB3-ED91-0AFD-513E02E73198" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A5244B5-6E15-1DF3-DE5B-BAF2F4E42511</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

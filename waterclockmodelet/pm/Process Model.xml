@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C65A6BFD-56C1-8D44-D77F-A91CFE940A40">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:49:03 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

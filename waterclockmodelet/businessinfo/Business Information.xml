@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="00072971-4102-AEB8-AFBA-23F40EBCB9B2">
+<createdBy>resource</createdBy>
+<createdTime>2019-10-08 20:49:03 UTC</createdTime>
+<ownerDesignName>waterclockmodelet</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
